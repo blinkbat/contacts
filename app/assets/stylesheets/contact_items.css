@@ -1,0 +1,33 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+html {
+   background-image: linear-gradient(30deg, #ccffff, #b3ffb3);
+   font-family: helvetica, arial, sans-serif;
+   display: block;
+   text-align: center;
+   height: 100%;
+   color: darkblue;
+ }
+
+ body {
+   padding: 20px;
+   background-color: rgba(255,255,255,0.6)
+ }
+
+
+
+table {
+   padding: 20px;
+   border: 1px rgba(0,0,0,.8) dotted;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   border-radius: 10px;
+ }
+
+table tbody tr td {
+   padding: 10px;
+   border-bottom: 1px rgba(0,0,0,.3) dotted;
+ }
